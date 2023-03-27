@@ -27,7 +27,7 @@ RUN cd /xuexi/; \
   google-chrome --version; \
   rm -f google-chrome-stable_92.0.4515.159-1_amd64.deb
 RUN cd /xuexi/; \
-  wget -O chromedriver_linux64_92.0.4515.107.zip https://registry.npmmirror.com/-/binary/chromedriver/92.0.4515.107/chromedriver_linux64.zip; \
+  wget -O chromedriver_linux64_92.0.4515.107.zip https://registry.npmmirror.com/-/binary/chromedriver/92.0.4515.107/chromedriver_linux64.zip ; \
   unzip chromedriver_linux64_92.0.4515.107.zip; \
   chmod 755 chromedriver; \
   ls -la; \
